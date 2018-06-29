@@ -1,0 +1,10 @@
+{"_id":{"$oid":"5b33117dcb41f52b20df014a"},"name":"Sagar Patel","specification":" psychiatrist","area":"San jose","rating":5}
+{"_id":{"$oid":"5b33117dcb41f52b20df014b"},"name":"Hemali Patel","specification":"Cardiologist.","area":"Sunnyvale","rating":3}
+{"_id":{"$oid":"5b33117dcb41f52b20df014c"},"name":"Saloni Bhatia","specification":"psychiatrist","area":"San jose","rating":4}
+{"_id":{"$oid":"5b33117dcb41f52b20df014d"},"name":"Yesha Mistry","specification":"Allergist","area":"Albany","rating":4}
+{"_id":{"$oid":"5b33117dcb41f52b20df014e"},"name":"Staffone Christine","specification":" psychiatrist","area":"San jose","rating":3}
+{"_id":{"$oid":"5b33117dcb41f52b20df014f"},"name":"Steve Christ","specification":"Allergist","area":"San jose","rating":5}
+{"_id":{"$oid":"5b33117dcb41f52b20df0150"},"name":"Ruchi Pithadia","specification":" psychiatrist","area":"Santa Clara","rating":5}
+{"_id":{"$oid":"5b33117dcb41f52b20df0151"},"name":"Shalaka Patil","specification":" psychiatrist","area":"San jose","rating":5}
+{"_id":{"$oid":"5b33117dcb41f52b20df0152"},"name":"Darshan Patel","specification":" Cardiologist.","area":"San matep","rating":5}
+{"_id":{"$oid":"5b33117dcb41f52b20df0153"},"name":"Vidhi Pateliya","specification":" Allergist","area":"San francisco","rating":5}

@@ -1,0 +1,24 @@
+<h1> List of doctors with similar rating as {{result.name}}</h1>
+
+<table class="table">
+<tr>
+        <td>Name</td>
+        <td>Rating</td>
+        <td>Speciality</td>
+
+
+        <!--<td>content</td>-->
+  </tr>
+    {{# each recos}}
+
+    <tr>
+    <td><a href="/list/{{this._id}}">{{name}}</a></td>
+    <td>{{rating}}</td>
+    <td>{{specification}}</td>
+
+
+
+   </tr>
+    {{/each
+    }}
+</table>

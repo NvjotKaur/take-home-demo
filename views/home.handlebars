@@ -1,0 +1,39 @@
+
+    <h1><b> List of doctors</b></h1>
+    <form method="GET">
+    <select name="area">
+        <option value="">Please select Area</option>
+        <option value= "Santa Clara">Santa Clara</option>
+        <option value= "San jose">San jose</option>
+        <option value= "San francisco">San francisco</option>
+    </select>
+    <select name="rating">
+      <option value="">Please select Rating</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    <input type="submit" value="Search"/>
+  </form>
+    <table class="table">
+    <tr>
+            <td>Name</td>
+            <td>Rating</td>
+            <td>Speciality</td>
+
+            <!--<td>content</td>-->
+      </tr>
+        {{# each result}}
+
+        <tr>
+        <td><a href="/list/{{this._id}}">{{name}}</a></td>
+        <td>{{rating}}</td>
+        <td>{{specification}}</td>
+
+
+       </tr>
+        {{/each
+        }}
+  </table>
